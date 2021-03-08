@@ -1,6 +1,7 @@
 package lphyscripter;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class MainPanel extends JPanel {
 
@@ -15,6 +16,8 @@ public class MainPanel extends JPanel {
         dataPanel = new DataPanel();
 
         mainPane.add("Data", dataPanel);
+
+        add(mainPane, BorderLayout.CENTER);
     }
 
 

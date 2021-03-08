@@ -13,7 +13,7 @@ import static lphy.app.Utils.saveToFile;
 public class LPhyScripter {
 
     private static String APP_NAME = "LPhy Scripter";
-    private static String VERSION = "0.1";
+    private static String VERSION = "0.01";
 
     static {
         System.setProperty("apple.eawt.quitStrategy", "CLOSE_ALL_WINDOWS");
